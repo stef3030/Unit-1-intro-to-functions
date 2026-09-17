@@ -1,0 +1,5 @@
+def square (x,y):
+      for i in range (60):
+        square(x,y)
+        t.right (5)
+        square (100,90)
