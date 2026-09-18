@@ -68,21 +68,17 @@ rotate = 90
         square(length, 90)
         length = length * 2
 doubleSquares(5) """
- """
- 
+"""
+"""  
 def addSquares(iRange):
     length = 5
     for i in range(iRange):
         square(length, 90)
         length += 5
-        t.right (5) """
- addSquares(60) 
+        t.right (5)
+    addSquares(60)  
 
-def square (x,y)
-    for i in range (60)
-    square(x,y)
-    t.right (5)
-    square (100,90)
+
 
  
 turtle.done() 
