@@ -3,17 +3,13 @@ from turtle import *
 t = Turtle()
 
 t.shape('turtle')
+
 for i in range(4):
-    t.forward(100)
-    t.left(90)
-sidelength = 100
-rotate = 90
- 
-def square (x,y):
+
+ def square (x,y):
     for i in range(4):
-        t.forward (100)
-        t.left(90)
-square (100,90) 
+        t.forward (x)
+        t.left(y)
 """ 
 def anothersquare (x,y):
    for i in range (60):
@@ -43,12 +39,25 @@ def addSquares(iRange):
 addSquares(5) """
 """  
 """ 
-def addSquares(iRange):
+""" def addSquares(iRange):
     length = 5
     for i in range(iRange):
-        square(100,90)
+        square(length,90)
         length += 5
         t.right (5)
 
-addSquares(60)
+addSquares(60) """
+def star ():
+  for i in range (60):
+         star (144,0)
+         t.forward (50)
+         t.right (40)
+  star (144,0)
+
+def addstar (iRange):
+   length = 5
+   for i in range (iRange):
+    addstar(length,144)
+    length += 5
+
 turtle. done()
